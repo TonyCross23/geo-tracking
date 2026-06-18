@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import 'leaflet/dist/leaflet.css';
+@import 'leaflet-routing-machine/dist/leaflet-routing-machine.css';
+
+/* လမ်းကြောင်းပြတဲ့ Box ကို အမည်းရောင်ပြောင်းခြင်း */
+.leaflet-routing-container {
+  background-color: #0f172a !important; /* Tailwind ရဲ့ slate-900 */
+  color: #ffffff !important;
+  border: 1px solid #334155 !important;
+  border-radius: 8px;
+}
+
+/* ထို Box ထဲက စာသားများကို အဖြူရောင်ပြောင်းခြင်း */
+.leaflet-routing-container h3, 
+.leaflet-routing-container span {
+  color: #ffffff !important;
+}
+
+/* လမ်းကြောင်းရွေးချယ်တဲ့ List တွေမှာ အဖြူရောင်ပေါ်လာအောင် */
+.leaflet-routing-alt {
+  background-color: transparent !important;
+}
+
+/* လမ်းကြောင်းအသေးစိတ် စာသားများ */
+.leaflet-routing-alt table tr:hover {
+  background-color: #1e293b !important;
+}
